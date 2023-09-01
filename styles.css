@@ -1,0 +1,217 @@
+.blinking-text {
+    animation: blink 1s linear infinite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color:yellowgreen;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.products {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.products h2 {
+	margin-top: 0;
+}
+
+.products ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.products li {
+	flex: 1;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.products img {
+	max-width: 100%;
+}
+
+.products h3 {
+	margin-top: 0;
+}
+
+.products p {
+	margin: 0;
+}
+
+.products button {
+	background-color:yellowgreen;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.cart {
+	flex: 1;
+}
+
+.cart h2 {
+	margin-top: 0;
+}
+
+.cart ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.cart li {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.cart img {
+	max-width: 100px;
+	margin-right: 20px;
+}
+
+.cart h3 {
+	margin-top: 0;
+}
+
+.cart p {
+	margin: 0;
+}
+
+.cart button {
+	background-color:yellowgreen;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.cart p:last-child {
+	font-weight: bold;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+img{
+    width: 100px;
+}
+h1{
+    text-align: center;
+
+}
+.center{
+    text-align: center;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.signup, .login {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.signup h2, .login h2 {
+	margin-top: 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input[type="text"], input[type="password"],input[type="email"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+h3{
+    text-align: center;
+}
+marquee{
+    font-size: x-large;
+}
